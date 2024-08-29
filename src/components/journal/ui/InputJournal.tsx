@@ -10,7 +10,7 @@ const inputJournal: React.FC<InputProps> = ({
         <div>
             inputJournal
             <input
-                className="border-2 w-full p-2 rounded-md pl-4 bg-no-repeat bg-left bg-[url('/icons/pencil.svg')]"
+                className="relative border-2 w-full p-2 rounded-md pl-4 bg-no-repeat bg-left bg-[url('/icons/pencil.svg')]"
                 type="text"
                 placeholder={inputText}
                 // value={inputText}
