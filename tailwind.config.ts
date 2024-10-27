@@ -17,6 +17,7 @@ const config: Config = {
                 "light-blue": "#F0F0FF",
                 white: "#FFF",
                 blue: "#565ADD",
+                main: "#F3F6FB",
             },
             borderColor: {
                 blue: "#565ADD",

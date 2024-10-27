@@ -1,0 +1,49 @@
+.active {
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10px;
+        width: 100%;
+        height: calc(100% + 23px);
+        border-top-left-radius: 22px;
+        border-bottom-left-radius: 22px;
+        background-color: #f3f6fb;
+        z-index: -1;
+    }
+}
+.active-radius {
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        border-bottom: 60px solid #f3f6fb;
+        border-left: 60px solid transparent;
+        clip-path: polygon(
+            94% 82%,
+            99% 79%,
+            100% 79%,
+            100% 78%,
+            100% 100%,
+            68% 100%,
+            74% 96%,
+            80% 93%,
+            86% 89%,
+            89% 85%
+        );
+        background-color: #f3f6fb;
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-top-left-radius: 40px;
+        border-top: 60px solid #f3f6fb;
+        border-left: 60px solid transparent;
+    }
+}
