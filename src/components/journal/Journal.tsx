@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import InputJournal from "../journal/ui/InputJournal";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import "../../app/globals.css";
+import "../../app/globals.scss";
 
 const Journal = () => {
     const [value, setValue] = useState<string>("Zanotuj swoje myśli tutaj...");
